@@ -7,8 +7,8 @@
 			body {
 				text-align: center;
 				background: url(https://handluggageonly.co.uk/wp-content/uploads/2015/11/El-Yunque-Rainforest-in-Puerto-Rico.jpg);
-				background-size: cover;
 				background-position: center;
+				object-fit: cover;
 				color: white;
 				font-family:'Bree Serif';
 			}
@@ -24,12 +24,17 @@
 				background: purple;
 				color: white;
 			}
-
+			img {
+				max-height: 25%;
+				max-width: 25%;
+				border-style: ridge;
+				border-radius: round;
+			}
 			
 		</style>
 	</head>
 	<body>
-		<img src="Barbara.jpg">
+		<img src="Barbara.jpeg">
 		<p>Hello! I am B&aacuterbara, a NYC-based Web Developer. Contact me for any information.</p>
 		<input type="email" placeholder="Your email">
 		<input type="submit">
