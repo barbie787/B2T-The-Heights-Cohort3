@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<!-- THIS IS A COMMENT -->
+		<h1>Look at console to see message</h1>
+		<h1>Tommorrow is Trey's Birthday</h1>
+		<h1 id="pie">He likes cherry pie</h1>
+		<h2 id='newtext'></h2>
+		<script type="text/javascript">
+			//gets list of all h1 elements in webpage
+			var h1Elements = document.getElementsByTagName('h1');
+			console.log(h1Elements);
+
+			//gets element of specified id
+			var pieElement = document.getElementById('pie');
+			//changes text ol element
+			pieElement.innerHTML = 'MORE PIE!!!'
+			//changes color of element to whatever is typed in prompt
+			pieElement.style.color = prompt('Give me a color')
+
+			document.getElementById('newtext').innerHTML = 'I am lost';
+
+			//Display message to console
+			console.log("Hello World");
+
+			//CONCATENATION: THE '+' is allowing me to join two values
+			console.log("My favorite color is " + prompt() );
+
+			/*Multi
+			line
+			comment*/
+		</script>
+
+		<!-- USING JAVASCRIPT WITH EXTERNAL FILE -->
+		<script src="myScript.js" type="text/javascript"></script>
+	</body>
+</html>
