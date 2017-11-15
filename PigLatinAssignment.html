@@ -8,7 +8,8 @@
 		<!--INTERNAL JAVASCRIPT-->
 	<script type="text/javascript">
 		//Adding my prompt
-		document.getElementById("name").innerHTML= "Hello my name is "+ prompt("What is your name");
+		var str = prompt("What is your name");
+		document.getElementById("name").innerHTML= str.slice(1)+ str.charAt(0) + "ay" ;
 	</script>
 	</body>
 </html>
