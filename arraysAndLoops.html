@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		var colors=['Blue','Green','Red','Orange', 'Violet','Indigo', 'Yellow'];
+		var o= ['th', 'st', 'nd', 'rd']; 
+		
+	
+		for (var i=0; i<colors.length;i++){
+			
+		
+			switch(i) {
+				case 0: 
+					console.log((i+1)+ o[1]+ " choice is "+ colors[i]+"." );//st
+
+					break;
+				case 1: 
+					console.log((i+1)+ o[2]+ " choice is "+ colors[i]+"." ) ;//nd
+					break;
+					
+				case 2: 
+					console.log((i+1)+ o[3]+ " choice is "+ colors[i]+"." ) ;//rd
+					break;
+					
+				default: 
+					console.log((i+1)+ o[0]+ " choice is "+ colors[i]+"." ) ;//th
+					break;
+					
+			}
+			
+		}
+			
+	
+		</script>
+	</body>
+</html>
