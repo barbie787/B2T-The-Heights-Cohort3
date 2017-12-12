@@ -17,10 +17,11 @@
 				var display;
 				for(var i=0; i<library.length; i++){
 					display= library[i];
-					if(display.readingStatus){document.getElementById("result").innerHTML= "Already read "+ display.title + " by "+ display.author + "."		
-					}else{
-						document.getElementById("result").innerHTML= "You still need to read "+ display.title+" by"+ display.author+ "."
-					}
+					if(display.readingStatus){document.getElementById("result").innerHTML+= "Already read "+ display.title + " by "+ display.author + "." +	"<br>";	
+					} 
+					else{
+						document.getElementById("result").innerHTML+= "You still need to read "+ display.title+" by "+ display.author+ "." + "<br>";
+					} 
 
 
 			}
