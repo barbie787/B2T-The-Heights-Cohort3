@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lets figure this out!</title>
+		
+		</style>
+	</head>
+	<body>
+		<h1>Advanced Calculator</h1>
+		<!--<style type="text/css">
+			body{
+				background: url(https://i.pinimg.com/originals/09/f2/a0/09f2a07a438b19a2174f66eaba699098.jpg) no-repeat center center;
+				text-align: center;
+				background-size: 160%;
+
+			}
+			h1{
+				color:black;
+  				font-size: 1em;
+   				font-family: Helvetica, Arial, sans-serif;
+   				text-shadow: 2px 4px 5px  black;  
+  				font-weight:bold;
+
+			}
+			#calccontainment{
+				background-color: aquamarine;
+				width: 145px;
+				height:95px;
+				border: 1px solid purple;
+				padding: 30px;
+				border-radius: 30px;
+				margin: 20px;
+				box-shadow: 0px 0px 3px 6px #ccc
+			}
+			#display{
+				margin-bottom:20px;
+				height:30px;
+				width: 10em;
+				border:1px solid black;
+				border-radius:5px;
+				box-shadow: 0px 0px 1px black;
+				text-align: right;
+				font: 20px bold;
+				padding:10px;
+			}
+			#key{
+				border-left-width: 3.5em;
+				box-shadow: 0px 0px 2px 1px black;
+  				border-radius:2px;
+			}
+			#keys{
+				box-shadow: 0px 0px 2px 1px black;
+  				border-radius:2px;
+			}
+			#equal{
+				box-shadow: 0px 0px 2px 1px black;
+  				border-radius:2px;
+			}
+
+
+}
+		</style>-->
+		<div id="calccontainment"> 
+			<form name="calculator">
+				<input type="text" name="result">
+				<br>
+
+				<input type="button" value=" C " id="keys" onclick="addToScreen('C')" >
+				<input type="button" value=" CE " id="keys" onclick="backSpace('CE')" >
+				<input type="button" value=" + " id="keys" onclick="power('+')" >
+				<input type="button" value=" - " id="keys" onclick="addToScreen('-')" >
+				<br>
+				<input type="button" value=" 1 " id="keys" onclick="addToScreen('1')" >
+				<input type="button" value=" 2 " id="keys" onclick="addToScreen('2')" >
+				<input type="button" value=" 3 " id="keys" onclick="addToScreen('3')" >
+				<input type="button" value=" / " id="keys" onclick="addToScreen('/')" >				
+				<br>
+				<input type="button" value=" 4 " id="keys" onclick="addToScreen('4')" >
+				<input type="button" value=" 5 " id="keys" onclick="addToScreen('5')" >
+				<input type="button" value=" 6 " id="keys" onclick="addToScreen('6')" >
+				<input type="button" value=" x " id="keys" onclick="addToScreen('*')" >
+				<br>
+				<input type="button" value=" 7 " id="keys" onclick="addToScreen('7')" >
+				<input type="button" value=" 8 " id="keys" onclick="addToScreen('8')" >
+				<input type="button" value=" 9 " id="keys" onclick="addToScreen('9')" >
+				<input type="button" value=" = " id="equal" onclick="equal()" >
+				<br>
+				<input type="button" value=" . " id="key" onclick="addToScreenK('.')" >
+				<input type="button" value=" 0 " id="key" onclick="addToScreenK('0')" >
+				
+				
+		</div>
+			</form>
+		
+
+	</body>
+</html>
